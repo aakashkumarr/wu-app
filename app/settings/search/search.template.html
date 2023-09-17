@@ -1,0 +1,70 @@
+<section>
+    <h6 class="text-black"> <a href="#!/" class="text-black">Home</a> > <a href="#!/settings" class="text-black">Settings</a> > <a href="#!/settings/search" class="text-black"> Transaction Search </a> </h6>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col mt-5">
+          <div class="card">
+            <div class="card-body shadow-effect login-box">
+                <h6>Transaction Criteria</h6>
+                <form action="">
+                    <div class="row">
+                        <!-- <h4>Transaction Criteria</h4> -->
+                        <div class="input-group input-group-icon">
+                            <label for="" class="text-black"> MTCN </label>
+                            <input type="number" name="" id="" placeholder="MTCN">
+                        </div>
+                        <div class="input-group input-group-icon">
+                            <label for="" class="text-black"> Transaction Date </label>
+                            <input type="date" name="" id="" placeholder="Transaction Date">
+                        </div>
+                        <div class="input-group" style="display: flex; flex-direction: column;">
+                            <label for="" class="text-black">Direction</label>
+                            <select name="" id="">
+                                <option value="">Send</option>
+                                <option value="">Received</option>
+                            </select>
+                        </div>
+                        <div class="input-group" style="display: flex; flex-direction: column;">
+                            <label for="" class="text-black">Status</label>
+                            <select name="" id="">
+                                <option value="">Paid</option>
+                                <option value="">Unpaid</option>
+                            </select>
+                        </div>
+                        <div class="input-group" style="display: flex; flex-direction: column;">
+                            <label for="" class="text-black">Fixed Transaction</label>
+                            <select name="" id="">
+                                <option value="">Send</option>
+                                <option value="">Received</option>
+                            </select>
+                        </div>
+                        <div class="input-group" style="display: flex; flex-direction: column;">
+                            <label for="" class="text-black">Recording Country</label>
+                            <select name="" id="">
+                                <option value="">Send</option>
+                                <option value="">Received</option>
+                            </select>
+                        </div>
+                        <div class="input-group" style="display: flex; flex-direction: column;">
+                            <label for="" class="text-black">Pay Out Country</label>
+                            <select name="" id="">
+                                <option value="">Send</option>
+                                <option value="">Received</option>
+                            </select>
+                        </div>
+                        <div class="input-group" style="display: flex; flex-direction: column;">
+                            <label for="" class="text-black">Sending Side Currency</label>
+                            <select name="" id="">
+                                <option value="">Send</option>
+                                <option value="">Received</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <button class="search-button" ng-click="$ctrl.search()">Search</button>
+                    </div>
+                </form>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
